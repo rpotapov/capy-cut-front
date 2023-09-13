@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ button{
+    width: 100%;
+    padding: 12px 18px;
+    border: none;
+    outline: none;
+    background: rgb(161, 204, 209);
+    color: #7C9D96;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0px 1px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity .3s ease;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.submitButton:not(.disabled):hover {
+    opacity: 1;
+    color:aqua
+}
+
+.submitButton.active {
+    background: #85A389;
+    color: #93B1A6;
+}

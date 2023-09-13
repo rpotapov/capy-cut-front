@@ -1,0 +1,20 @@
+.messageContainer {
+  padding: 0 6px;
+}
+
+.message {
+  font-size: small;
+  font-weight: bold;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.warning {
+  color: orange;
+}
+
+.message.error {
+  color: brown;
+}

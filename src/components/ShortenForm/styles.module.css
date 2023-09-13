@@ -1,0 +1,27 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    gap: 12px;
+}
+
+.input {
+    min-width: 250px;
+    outline: none;
+    border: #1D5B79;
+    border-radius: 4px;
+    height: 32px;
+    padding: 4px 8px;
+    text-overflow: ellipsis;
+}
+
+.button {
+    
+}
